@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizza Nova - Fresh Pizza Made With Love</title>
+  <meta name="description" content="Enjoy delicious fresh pizza at Pizza Nova. Order Margherita, Pepperoni, and BBQ Chicken pizzas made with love. Join our WhatsApp group for updates!" />
+  <meta name="keywords" content="pizza, fresh pizza, Pizza Nova, Margherita, Pepperoni, BBQ Chicken, restaurant, food delivery" />
+  <meta name="author" content="Pizza Nova" />
+  <meta name="robots" content="index, follow" />
+  <link rel="icon" href="WhatsApp_Image_2026-04-03_at_1.02.12_PM-removebg-preview.png" type="image/png" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Poppins', 'Segoe UI', sans-serif; background: #ffffff; color: #333; line-height: 1.6; }
+    .container { max-width: 1300px; margin: 0 auto; padding: 60px 30px; }
+    
+    /* Hero Section */
+    .hero { display: flex; justify-content: center; margin-bottom: 100px; }
+    
+    .hero-text { padding: 40px 0; display: flex; align-items: center; justify-content: flex-start; gap: 20px; flex-wrap: wrap; }
+    .logo-small { margin-bottom: 0; }
+    .logo-small img { width: 250px; height: auto; border-radius: 10px; }
+    .title-section { text-align: left; display: flex; flex-direction: column; align-items: flex-start; }
+    .hero-text h1 { font-size: 4.5rem; font-weight: 800; color: #1a1a1a; margin-bottom: 15px; line-height: 1.1; font-style: italic; }
+    .hero-text p { font-size: 1.4rem; color: #666; margin-bottom: 35px; font-weight: 500; }
+    .btn { display: inline-block; background: linear-gradient(135deg, #FF6B35, #FF8C42); color: #fff; border: none; border-radius: 12px; padding: 18px 42px; font-size: 1.1rem; font-weight: 700; cursor: pointer; text-decoration: none; transition: transform 0.3s, box-shadow 0.3s; box-shadow: 0 10px 30px rgba(255, 107, 53, 0.3); }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 15px 40px rgba(255, 107, 53, 0.4); }
+    
+    /* Menu Section */
+    .menu-title { text-align: center; margin-bottom: 80px; }
+    .menu-title h2 { font-size: 3rem; font-weight: 800; color: #1a1a1a; margin-bottom: 15px; }
+    .menu-title p { font-size: 1.2rem; color: #FFB703; font-weight: 600; }
+    
+    /* Cards Grid */
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px; }
+    .card { background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s; }
+    .card:hover { transform: translateY(-10px); box-shadow: 0 18px 50px rgba(0, 0, 0, 0.15); }
+    .card-img { position: relative; overflow: hidden; height: 240px; }
+    .card img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.3s; }
+    .card:hover img { transform: scale(1.08); }
+    
+    .content { padding: 25px; }
+    .content h3 { font-size: 1.6rem; font-weight: 700; color: #1a1a1a; margin-bottom: 10px; }
+    .content p { color: #666; font-size: 1rem; line-height: 1.6; }
+    
+    /* Decorative elements */
+    .accent-line { width: 60px; height: 4px; background: #FFB703; margin: 15px 0; border-radius: 2px; }
+    
+    @media (max-width: 1024px) {
+      .hero-text h1 { font-size: 3.5rem; }
+    }
+    
+    @media (max-width: 768px) {
+      .container { padding: 40px 20px; }
+      .hero { gap: 30px; margin-bottom: 60px; }
+      .hero-text h1 { font-size: 2.8rem; }
+      .hero-text p { font-size: 1.2rem; }
+      .menu-title h2 { font-size: 2.2rem; }
+      .cards { gap: 25px; }
+    }
+    
+    /* Footer */
+    .footer { background: #1a1a1a; color: #fff; padding: 40px 0; margin-top: 80px; }
+    .footer-content { max-width: 1300px; margin: 0 auto; padding: 0 30px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
+    .footer-content p { margin: 0; font-size: 1rem; }
+    .whatsapp-link { background: #25D366; color: #fff; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: background 0.3s; }
+    .whatsapp-link:hover { background: #128C7E; }
+    
+    @media (max-width: 768px) {
+      .footer-content { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-text">
+        <div class="logo-small">
+          <img src="WhatsApp_Image_2026-04-03_at_1.02.12_PM-removebg-preview.png" alt="Pizza Nova Logo" />
+        </div>
+        <div class="title-section">
+          <h1>Pizza Nova</h1>
+          <div class="accent-line"></div>
+          <p>Fresh Pizza Made With Love</p>
+          <a href="#menu" class="btn">View Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Title -->
+    <div class="menu-title">
+      <h2>Best Seller Meals</h2>
+      <p>━━━━━━━━━━━━━━━━━</p>
+    </div>
+
+    <!-- Menu Cards -->
+    <section id="menu" class="cards">
+      <article class="card">
+        <div class="card-img">
+          <img src="Delicious Margherita pizza close-up.png" alt="Margherita" />
+        </div>
+        <div class="content">
+          <h3>Margherita</h3>
+          <p>Tomato sauce, mozzarella, fresh basil. Classic & delicious.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-img">
+          <img src="Pepperoni pizza with a golden crust.png" alt="Pepperoni" />
+        </div>
+        <div class="content">
+          <h3>Pepperoni</h3>
+          <p>Classic pepperoni with extra cheese. Spicy & satisfying.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-img">
+          <img src="BBQ chicken pizza with cilantro.png" alt="BBQ Chicken" />
+        </div>
+        <div class="content">
+          <h3>🍕 BBQ Chicken</h3>
+          <p>BBQ sauce, chicken, onions, cheddar. Sweet and smoky.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2026 Pizza Nova. All rights reserved.</p>
+        <a href="https://chat.whatsapp.com/KHSUyg0vrTECA6JUBLjQPY?mode=gi_t" target="_blank" class="whatsapp-link">
+          📱 Join our WhatsApp Group
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
